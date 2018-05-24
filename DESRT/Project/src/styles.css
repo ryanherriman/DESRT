@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/ CSS Document /
+
+/ The navigation bar /
+
+.navbar {
+    overflow: hidden;
+    position: fixed; / Set the navbar to fixed position /
+    top: 200; / Position the navbar /
+    width: 100%; / Full width /
+}
+/ Main content /
+.main {
+    margin-top: 10px; / Add a top margin to avoid content overlay /
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; / Safari /
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+
+.resources:hover {
+    background-color: #E78818;
+    color: white;
+}
+
+.projects:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+
+.teams:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+
+.reports:hover {background-color: #00DC34;}
+
+
+.news:hover {
+    background-color: #555555;
+    color: white;
+}
+
+#demo{
+  margin-top: 110px;
+}
+
+
+
+div{
+		position: relative;
+	}
+	#stage{
+		background: #ccc;
+		height: 400px;
+		position: relative;
+		width: 1200px;
+	}
+	#page_nav li{
+		display: inline-block;
+		list-style: none;
+		padding: 5px;
+
+	}
+	#page_nav li a{
+		color: #000;
+		cursor: pointer;
+		text-decoration: underline;
+	}
+	input[type="text"]{
+		width: 30px;
+	}
+	#page_info{
+		display: block;
+		border: solid #ccc;
+		margin: 5px;
+		padding: 5px;
+	}
+	#curr_page{
+		font-weight: bold;
+	}
+	#page_nav{
+		border: solid blue;
+		margin: 5px;
+		padding: 5px;
+		text-align: center;
+      / padding-right: 600px; /
+	}
+  #buto,#results{
+    color: green;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  #dataResult{
+  background-color:#c9e3ed;
+  position: relative;
+  }
+
+    / #dataResult li{
+      text-decoration: none;
+
+    } /
+    #div1 li{
+          text-decoration: underline;
+          color: blue;
+          display: inline-block;
+      		list-style: none;
+      		padding: 5px;
+
+    }
+
+    #column1 {
+    width:500px;
+    height:400px;
+    float:left;
+      / background-color:red; /
+}
+#column2 {
+    width:500px;
+    margin-left:500px;
+    height:400px;
+    background-color:lightgrey;
+}
+
+#header1 {
+    background-color:blue;
+    width:1000px;
+    height:50px;
+    background-color:green;
+}
+
+.chosen{
+  color:green;
+}
