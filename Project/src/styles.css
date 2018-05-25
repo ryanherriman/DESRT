@@ -1,0 +1,69 @@
+html {
+    background-image: url("29887638.jpg");
+}
+
+#logo {
+    position: absolute;
+    left: 45%;
+    opacity: 0.5;
+    border: 4px black solid;
+}
+
+.navbar {
+    position: absolute;
+    left: 29.4%;
+    top: 15%;
+    width: 50%;
+
+}
+
+.button {
+    border: 4px black solid;
+    color: black;
+    font-family: cabin;
+    font-weight: 500;
+    font-size: 32px;
+    background-color: white;
+    width: 180px;
+    height: 60px;
+
+}
+
+#resourcesbtn:hover {
+    color: white;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+#projects:hover {
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+}
+
+#teams:hover{
+    color: white;
+    background-color: limegreen;
+    cursor: pointer;
+}
+
+#reports:hover {
+    color: white;
+    background-color: fuchsia;
+    cursor: pointer;
+}
+
+#news:hover {
+    color: white;
+    background-color: darkturquoise;
+    cursor: pointer;
+}
+
+#files{
+    position: absolute;
+    top: 97%;
+}
+
+
+
+
